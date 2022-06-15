@@ -1,0 +1,61 @@
+* body {
+  background-color: rgb(163, 141, 45);
+}
+
+
+.title {
+  font-size: 22px;
+  color: blue;
+}
+
+.search { 
+  margin: 10px auto;
+  
+  input {
+    outline: 0 chartreuse;
+    height: 30px;
+    border: none;
+    color: black;
+
+    &::placeholder {
+      color: gray;
+    }
+  }
+  button {
+    border: none;
+    background-color: greenyellow;
+    height: 32px;
+    user-select: none;
+    &:hover {
+      background-color: green;
+      color: white
+    }
+  }
+}
+
+.flag {
+  color:blueviolet;
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 10px;
+  
+  .image {
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+}
+
+.contenedor {
+  background-color: silver;
+  margin: 10px auto;
+  width: 300px;
+  min-height: 360px;
+  max-height: 380px;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgb(129, 120, 120);
+  }
+}
